@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Raiz Cuadrada</title>
+        
+  </head>
+
+  <style>
+    html {font-family: sans-serif; text-align: center}
+    body {display: inline-block; text-align: left}
+    label, legend {font-weight: bold}
+    *:required, .obligatorio {border: thin solid blue}
+    input[type=number], .numero {text-align: right}
+    dfn {font-weight: bold}
+    br + output, fieldset + output, footer, form em {font-size: small}
+    fieldset p {margin: 0}
+    fieldset label, label * {font-weight: normal}
+    .error {color: red}
+ </style>
+
+<body>
+  <h1>Raiz Cuadrada</h1>
+
+			<div class="cuerpo">
+				<input id="num" name="numero" type="number" placeholder="ingresa un numero">
+
+				<button class="Generar" onclick="Raiz()">Generar</button>
+        <button type="reset" name="Limpiar" onclick="Limpiar()">Limpiar</button>
+			</div>
+			<br><textarea name="name" rows="8" cols="80" class="panel-footer" id="resultado" style="word-wrap: break-word;">
+      </textarea><br>
+
+  <script src="js/CtrlRaiz.js" charset="utf-8"></script>
+
+  <footer>copyright Adrian Limon</footer>
+</body>
+</html>
